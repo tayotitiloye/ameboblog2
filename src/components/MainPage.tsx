@@ -6,8 +6,8 @@ import { FaEdit } from "react-icons/fa";
 async function getData() {
    
      
-     const res = await fetch("http://localhost:3000/api/post", {
-     //const res = await fetch(`${process.env.NEXTAUTH_URL}/api/post`, {
+   //  const res = await fetch("http://localhost:3000/api/post", {
+     const res = await fetch(`${process.env.URL_LINK}/api/post`, {
          cache:'no-store'
      })
      if (!res.ok) {

@@ -42,7 +42,7 @@ async function MainPage() {
                         <div className='flex items-center bg-white m-2 rounded-lg p-2 justify-between'>
                             <div >
                   
-                                <p className='text-xl font-bold capitalize border-b-2'>Topic: {p.title}</p>
+                                <p className='text-xl font-bold capitalize border-b-2'> {p.title}</p>
                                 <p className='my-4'>{p.description}</p>
                             </div>
                             <div className='flex gap-2'>
